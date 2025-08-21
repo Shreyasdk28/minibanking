@@ -8,9 +8,9 @@ public class connection {
 
     private static Connection connection; // Singleton connection instance
 
-    private static final String URL = "jdbc:mysql://localhost:3306/bank"; // DB URL
-    private static final String USER = "root"; // Your MySQL username
-    private static final String PASSWORD = "shreyas"; // Your MySQL password
+    private static final String URL = "jdbc:mysql://localhost:3306/dbname"; // DB URL
+    private static final String USER = "uname"; // Your MySQL username
+    private static final String PASSWORD = ""; // Your MySQL password
 
     // Prevent instantiation
 
